@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0 auto;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(102, 99, 99)
+    color: rgb(102, 99, 99)
 }
 
 /* .cabecalho{
@@ -11,130 +11,135 @@
     height: 100px;
 } */
 
-nav{
-    background-color:rgb(126, 173, 221);
-    height:100px;
-   
-    
-    
+nav {
+    background-color: rgb(126, 173, 221);
+    height: 100px;
+
+
+
 }
-a{
-    text-decoration: none; 
-    
+
+a {
+    text-decoration: none;
 }
-.a-navigator{
-    color: aliceblue; 
+
+.a-navigator {
+    color: aliceblue;
     list-style: none;
     /* display: inline;   */
-    font-size: 1rem; 
+    font-size: 1rem;
     /* padding: 60px;  */
 }
 
-.ul-navigator{     
- 
-    display: flex;    
+.ul-navigator {
+    display: flex;
     padding: 0;
-  
- 
 }
 
-ul{
-
-    list-style: none;  
-   
-
+ul {
+    list-style: none;
 }
 
 
 
-.li-navigator{
-    display:flex;  
-    margin-top:30px;  
-    
+.li-navigator {
+    display: flex;
+    margin-top: 30px;
 }
 
 /* MAIN */
-main,.melhoresAutores{
+main,
+.melhoresAutores {
     margin-left: 20px;
 }
 
-.subtitulo{
+.subtitulo {
     font-style: italic;
     font-weight: bold;
 }
-.a-subtitulo{
+
+.a-subtitulo {
     font-style: italic;
 }
-.a-subtitulo:hover{
+
+.a-subtitulo:hover {
     color: red;
     /* font-weight: bold; */
     outline: none;
-    
+
 }
-.subtitulo:hover{  
+
+.subtitulo:hover {
     color: red;
     /* font-weight: bold; */
     outline: none;
-    
 }
-.img-artigo{
+
+.img-artigo {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     width: 500px;
     height: 300px;
-    border-radius:10px;
-
+    border-radius: 10px;
 }
-.container-artigo{
-    display: flex;
+
+.container-artigo {
+    flex-wrap: wrap;
     width: 50%;
-    
+    display: flex;
+    justify-content: center;
+
     /* background-color: blueviolet; */
 
-  
+
 }
-.container-artigo-img{
+
+.container-artigo-img {
     /* background-color: blueviolet; */
-    width:500%;
+    width: 500%;
     margin-right: 50px;
 }
-.container-artigo-conteudo{
+
+.container-artigo-conteudo {
     /* background-color: blue; */
-    width:500%;
-    
+    width: 500%;
+
 }
-.container-artigo-x{
+
+.container-artigo-x {
     display: flex;
-    
 }
-.noticiasRecentes{
- margin-left:5px;
- background-color:#e9f0f7;
+
+.noticiasRecentes {
+    background-color: #e9f0f7;
+    align-items: center;
 }
-td{
+
+td {
     color: rgb(65, 64, 64);
 }
 
-.ol-melhotesAutores{ 
+.ol-melhotesAutores {
     margin-left: 50px;
 }
 
- 
-
-
-
-
-
-
-
+.videos {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
 
 /* FOOTER */
+footer {
+    background-color: rgb(167, 203, 238);
+    height: 100px;
+    top:0%;
+}
 
-footer{
-    background-color: blueviolet;
-}
-.icone-linkedin, .icone-github, .icone-contato{
-    width:30px;
-}
-fieldset{
-    width: 20px;
-  
+.icone-linkedin,
+.icone-github,
+.icone-contato {
+    width: 30px;
+    margin-top: 1.75%;
 }
