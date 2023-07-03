@@ -6,17 +6,11 @@
     color: rgb(102, 99, 99)
 }
 
-/* .cabecalho{
-    background-color: blue;
-    height: 100px;
-} */
+
 
 nav {
     background-color: rgb(126, 173, 221);
     height: 100px;
-
-
-
 }
 
 a {
@@ -26,9 +20,8 @@ a {
 .a-navigator {
     color: aliceblue;
     list-style: none;
-    /* display: inline;   */
     font-size: 1rem;
-    /* padding: 60px;  */
+
 }
 
 .ul-navigator {
@@ -64,14 +57,12 @@ main,
 
 .a-subtitulo:hover {
     color: red;
-    /* font-weight: bold; */
     outline: none;
 
 }
 
 .subtitulo:hover {
     color: red;
-    /* font-weight: bold; */
     outline: none;
 }
 
@@ -85,24 +76,18 @@ main,
 }
 
 .container-artigo {
-    flex-wrap: wrap;
     width: 50%;
     display: flex;
     justify-content: center;
 
-    /* background-color: blueviolet; */
-
-
 }
 
 .container-artigo-img {
-    /* background-color: blueviolet; */
     width: 500%;
     margin-right: 50px;
 }
 
 .container-artigo-conteudo {
-    /* background-color: blue; */
     width: 500%;
 
 }
@@ -125,16 +110,24 @@ td {
 }
 
 .videos {
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+#entretenimento {
+    margin-bottom: 200px;
+
 }
 
 /* FOOTER */
 footer {
     background-color: rgb(167, 203, 238);
     height: 100px;
-    top:0%;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .icone-linkedin,
@@ -142,4 +135,18 @@ footer {
 .icone-contato {
     width: 30px;
     margin-top: 1.75%;
+
+}
+
+
+
+
+@media(max-width:425px) {
+    .container-artigo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
